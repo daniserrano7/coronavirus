@@ -1,0 +1,33 @@
+.sidebar-indicator {
+    margin: 3px;
+    border-radius: 3px;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+}
+
+.indicator-left {
+    min-width: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.indicator-title {
+    font-size: 24px;
+    bottom: 2px;
+    position: relative;
+}
+
+.indicator-right {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+}
+
+.indicator-number {
+    font-size: 52px;
+}

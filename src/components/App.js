@@ -1,14 +1,17 @@
 import React from 'react';
 import '../css/App.css';
 
-import Header from './Header';
+import Sidebar from './Sidebar';
 import MapComponent from './MapComponent';
 
 const App = ({data}) => {
 	return (
 		<div className="app">
-			<Header/>
+			<Sidebar data={data}/>
 			<MapComponent data={data}/>
+			<div className="list">
+				<table className="list-table"></table>
+			</div>
 		</div>
 	)
 }

@@ -1,0 +1,23 @@
+.sidebar {
+    background-color: blue;
+    min-width: 350px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar-header {
+    background-color: grey;
+}
+
+.sidebar-list {
+    background-color: green;
+    height: 100%;
+    display: flex;
+}
+
+.chart-container {
+    width: 100%;
+    margin: 10px;
+    background-color: grey;
+}
